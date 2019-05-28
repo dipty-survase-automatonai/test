@@ -14,7 +14,7 @@ while True:
     elif not re.search("[0-9]", pwd):
         flag = -1
         break
-    elif not re.search("[_@$]", pwd):
+    elif not re.search("[#@$]", pwd):
         flag = -1
         break
     elif re.search("\s", pwd):
